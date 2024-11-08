@@ -301,7 +301,7 @@ hr {
     align-items: center;
     width: 100%;
     margin-top: 35px;    
-} 
+}
 
 .projects-grid {
     display: flex;
@@ -328,7 +328,6 @@ hr {
 }
 
 .projects img {
-    display: grid;
     max-width: 100%;
     border-radius: 1rem;
     transition: ease-in-out 1s;
@@ -470,7 +469,6 @@ label {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-
 
 
 
