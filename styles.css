@@ -84,6 +84,7 @@ body, html {
             box-shadow: rgba(220, 220, 220, 0.553) 5px 1px 15px;
             line-height: 0;
             position: absolute;
+            min-width: 80%;
             }
 
         .dark-mode {
@@ -205,22 +206,12 @@ cursor: pointer;
 
 .skills-div {
     margin-top: 1%;
-    width: 95%;  
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    width: 100%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 10px;
-    padding: 20px;
-    align-items: center;
     color:#fff;
-}
-
-.skills-info {
-    box-sizing: border-box;
-    padding: 20px;
-    width: 47vw;
-    border-left: 2px solid rgb(197, 78, 155);
-    height: 100%;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .skills-logo {
@@ -311,21 +302,15 @@ hr {
 .projects-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    color: #fff;
-}
+    margin-top: 35px;    
+} 
 
 .projects-grid {
-    grid: 1fr 1fr;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: 400px 400px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 3rem;
-    justify-content: center;
     row-gap: 0rem;
     width: 100%;
     padding-top: 25px;
@@ -333,6 +318,12 @@ hr {
 
 .projects { 
     height: 18rem;
+    flex: 1 0 40%;
+            margin: 10px;
+            background-color: rgba(4, 18, 22, 0.588);
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #34132a;           
 }
 
 .projects img {
