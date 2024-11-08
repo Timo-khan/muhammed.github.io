@@ -270,10 +270,8 @@ hr {
 .skills-description {
     border-top: none;
     background: #1d1919;
-    position: absolute;
     border-radius: 3%;
     box-shadow: rgba(220, 220, 220, 0.553) 5px 1px 15px;
-    position: absolute;
 }
 
 .skills-description {
@@ -286,7 +284,6 @@ hr {
     text-align: center;
     letter-spacing: 0.2rem;
     line-height: 1.8rem;
-    margin-top: -15px;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
