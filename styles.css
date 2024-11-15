@@ -5,7 +5,6 @@ body, html {
     width: 100%;
     margin: 0px;
     padding: 0px; 
-    background-color: black;
 }
 
 .background-pic{
@@ -293,6 +292,7 @@ hr {
 
 .about-projects {
     background-color: black;
+    padding-top: 1px;
 }
 
 .projects-container {
